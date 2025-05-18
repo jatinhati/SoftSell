@@ -56,3 +56,5 @@ Approximately 8 hours, distributed as:
 - Enhanced animations with Framer Motion
 - Multi-language support
 - More advanced chat capabilities with a real LLM integration
+
+npm run dev
