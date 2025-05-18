@@ -57,4 +57,19 @@ Approximately 8 hours, distributed as:
 - Multi-language support
 - More advanced chat capabilities with a real LLM integration
 
-npm run dev
+## **Installation & Setup 🛠️**  
+
+### **Prerequisites**  
+- Node.js (v16+)    
+- Git  
+
+### **Steps**  
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/jatinhati/Campus-Connect.git
+   cd Campus-Connect
+### `npm run dev`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
