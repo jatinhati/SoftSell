@@ -13,21 +13,21 @@ function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   useEffect(() => {
-    // Check user's preferred color scheme
+    
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
     setIsDarkMode(prefersDark);
     
-    // Update document based on dark mode state
+   
     if (prefersDark) {
       document.documentElement.classList.add('dark');
     }
   }, []);
 
   useEffect(() => {
-    // Update the title
+    
     document.title = 'SoftSell - Software License Marketplace';
     
-    // Add meta tags for SEO
+    
     const metaDescription = document.createElement('meta');
     metaDescription.name = 'description';
     metaDescription.content = 'SoftSell helps businesses buy and sell unused software licenses. Turn your unused licenses into cash or find affordable software solutions.';
@@ -39,7 +39,7 @@ function App() {
     document.head.appendChild(metaKeywords);
     
     return () => {
-      // Clean up meta tags when component unmounts
+      
       document.head.removeChild(metaDescription);
       document.head.removeChild(metaKeywords);
     };
